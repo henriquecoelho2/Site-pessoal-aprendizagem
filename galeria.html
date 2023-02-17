@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
     <style>
+        .flex-container3 {
+            display: flex;
+            flex-direction: column;
+        }
+        .flex-container3 > div {
+            width: 1173px;
+            padding: 100px;
+            border: 5px solid tomato;
+            color: rgb(41, 41, 41);
+            font-family: "Comic Sans MS", "Comic Sans", fantasy;
+        }
         #id2 {
             list-style-type: none;
             margin: 0;
@@ -35,7 +46,15 @@
     <ul id="id2">
         <li><a href="index.html">Home</a></li>
         <li><a href="galeria.html">Galeria</a></li>
-        <li><a href="">Redes Sociais</a></li>
+        <li><a href="">Contatos</a></li>
     </ul>
+    <div class="flex-container3">
+        <div>FOTOS DE PATOS
+            <img scr="https://st.depositphotos.com/1018248/2517/i/600/depositphotos_25179119-stock-photo-dirty-duck-isolated.jpg" alt="Foto de um pato de lado">
+        </div>
+        <div>LIVROS</div>
+        <div>COMIC SANS</div>
+        </ul>
+    </div>
 </body>
 </html>
