@@ -6,16 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
     <style>
-        .flex-container3 {
+        .flex-container-body {
             display: flex;
             flex-direction: column;
         }
-        .flex-container3 > div {
-            width: 1173px;
+        .flex-container-body > div {
+            width: 1013px;
             padding: 100px;
-            border: 5px solid tomato;
             color: rgb(41, 41, 41);
             font-family: "Comic Sans MS", "Comic Sans", fantasy;
+            border: 5px solid green;
+        }
+        .flex-container-galary-duck {
+        display: flex;
+        
+        }
+        .flex-container-galary-duck > div {
+            border: solid tomato;
         }
         #id2 {
             list-style-type: none;
@@ -40,6 +47,9 @@
             background: url(background\ site1.png) no-repeat;
             background-size: cover;
         }
+        li img {
+            border: 5px solid rgb(41, 41, 41);
+        }
     </style>
 </head>
 <body>
@@ -48,13 +58,34 @@
         <li><a href="galeria.html">Galeria</a></li>
         <li><a href="">Contatos</a></li>
     </ul>
-    <div class="flex-container3">
-        <div>FOTOS DE PATOS
-            <img scr="https://st.depositphotos.com/1018248/2517/i/600/depositphotos_25179119-stock-photo-dirty-duck-isolated.jpg" alt="Foto de um pato de lado">
+    <div class="flex-container-body">
+        <div><h2>FOTOS DE PATOS</h2>
+            <div class="flex-container-galary-duck">
+                <div>
+                    <img src="/assets/PATO-DE-LADO.jpg" alt="Foto de um pato de lado" height="200px" width="200px">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd2D1C57bSY3intpC5vlYxQIJBBefiXqB7Tw&usqp=CAU" alt="Imagem de um pato nadando visto de cima" height="200px">
+                    <img src="https://t2.ea.ltmcdn.com/pt/posts/9/4/9/pato_voa_ou_nao_voa_22949_orig.jpg" alt="Pato de cabeça verde nadando tranquilo na lagoa" height="200px">
+                </div>
+            </div>
         </div>
-        <div>LIVROS</div>
-        <div>COMIC SANS</div>
-        </ul>
+        <div><h2>LIVROS</h2>
+            <div class="flex-container-galary-duck">
+                <div>
+                    <img src="/assets/PATO-DE-LADO.jpg" alt="Foto de um pato de lado" height="200px" width="200px">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd2D1C57bSY3intpC5vlYxQIJBBefiXqB7Tw&usqp=CAU" alt="Imagem de um pato nadando visto de cima" height="200px">
+                    <img src="https://t2.ea.ltmcdn.com/pt/posts/9/4/9/pato_voa_ou_nao_voa_22949_orig.jpg" alt="Pato de cabeça verde nadando tranquilo na lagoa" height="200px">
+                </div>
+            </div>
+        </div>
+        <div><h2>COMIC SANS</h2>
+            <div class="flex-container-galary-duck">
+                <div>
+                    <img src="/assets/PATO-DE-LADO.jpg" alt="Foto de um pato de lado" height="200px" width="200px">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd2D1C57bSY3intpC5vlYxQIJBBefiXqB7Tw&usqp=CAU" alt="Imagem de um pato nadando visto de cima" height="200px">
+                    <img src="https://t2.ea.ltmcdn.com/pt/posts/9/4/9/pato_voa_ou_nao_voa_22949_orig.jpg" alt="Pato de cabeça verde nadando tranquilo na lagoa" height="200px">
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
