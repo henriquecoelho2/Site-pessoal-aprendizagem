@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SITE PESSOAL</title>
     <style>
-        .flex-conteiner {
-            
+        img {
+            border-radius: 100%;
+            border: 10px solid rgb(41, 41, 41);
+        }
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
         }
         .flex-container2 {
             display: flex;
@@ -18,11 +24,11 @@
             width: 320px;
             padding: 10px;
             border: 5px solid azure;
-            margin-top: 185px;
+            margin-top: 20px;
         }
         .flex-container2 > div {
             width: 200px;
-            padding: 100px;
+            padding: 20px;
             border: 5px hidden;
             color: azure;
             font-family: "Comic Sans MS", "Comic Sans", fantasy;
@@ -33,7 +39,7 @@
                 position:absolute;
                 left: 50%;
                 margin-left: -3px;
-                top: 370px;
+                top: 63%;
         }
         h1{
             color: azure;
@@ -42,9 +48,35 @@
         body{
             background-color: rgb(0, 195, 255);
         }
-    </style>
+        #id2 {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(41, 41, 41);
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+        }
+        li a:hover {
+            background-color:black;
+        }
+</style>
 </head>
 <body>
+    <ul id="id2">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Galeria</a></li>
+        <li><a href="#contact">Redes Sociais</a></li>
+    </ul>
+    <div class="flex-container">
+    <img src="https://multiurso.com.br/wp-content/uploads/2022/08/diferenca-pato-marreco-foto.jpg" alt="imagem de perfil redonda contendo um pato" width="190" height="160">
+    </div>
     <div class="flex-container2">
         <h1>SOBRE MIM</h1>
     </div>
@@ -60,5 +92,8 @@
         </div>
     </div>
     <div class="vl"></div>
+    <div class="flex-container">
+    <h1>FIM</h1>
+    </div>
 </body>
 </html>
